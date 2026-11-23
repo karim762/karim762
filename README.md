@@ -13,7 +13,7 @@
 
 ## About Me
 
-- Master of Engineering student in **Applied Mathematics & Computer Science** at **Sorbonne University**, ranked **5th of 25** in my cohort
+- Master of Engineering student in **Applied Mathematics & Computer Science** at **Sorbonne University**
 - Exchange semester at **ETH Zürich (D-MATH)**: Machine Learning in Finance & Insurance, Causality, Bayesian Statistics, Time Series, Statistical Modelling
 - I build **LLM and document-intelligence systems** for banking, and I work on **machine learning for finance** (deep hedging, credit risk)
 - Incoming **Data Scientist Intern** at **Crédit Agricole CIB**, Mar – Aug 2027
@@ -25,9 +25,10 @@
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| **Deep Hedging of Options** *(ETH Zürich, 2026)* | Deep hedging framework across Black–Scholes, Heston and six historical equity indices (2010–2026). Matched analytical hedging within 0.2%, beat delta hedging on 90% AVaR in all 50 Heston test sets, and reduced out-of-sample tail risk by 12% versus delta with 1% transaction costs. | Python · PyTorch |
+| **[Deep Hedging of Options](https://github.com/karim762/deep-hedging)** *(ETH Zürich, 2026)* | Deep hedging framework across Black–Scholes, Heston and six historical equity indices (2010–2026). Matched analytical hedging within 0.2%, beat delta hedging on 90% AVaR in all 50 Heston test sets, and reduced out-of-sample tail risk by 12% versus delta with 1% transaction costs. | Python · PyTorch |
 | **Automated Bibliographic Verification – Inserm** *(2025–2026)* | RAG pipeline (bi-encoder retrieval, cross-encoder reranking, LLM scoring with Mistral, locally hosted option) that cut the verification of 5,300+ references per report from about a week to a few hours. Fine-tuned Mistral 7B with 4-bit QLoRA: macro-F1 from 0.70 to 0.81, false-positive rate from 33% to 14%. | Python · RAG · Mistral · QLoRA |
 | **[Credit Default Prediction](https://github.com/karim762/credit-default)** *(Sorbonne University, 2026)* | Default model for 30,000 credit card clients: decoded undocumented repayment codes, engineered aligned repayment and utilisation features, and calibrated probabilities (AUC 0.79 over 10 resplits) feeding a cost-based decision rule. Boosting beats logistic regression on log loss but adds economic value only when intervention costs are low. | R · XGBoost · glmnet |
+| **[Parallel Meet-in-the-Middle Search](https://github.com/karim762/parallel-mitm)** *(Sorbonne University, 2025–2026)* | Distributed search in C with MPI and OpenMP. With Adrien Panguel, solved n = 38 in 7 min 19 s on 50 Grid'5000 nodes; then cut memory per key by 26%, halved the data exchanged and measured a 2.2–2.7× speed-up on one machine. | C · MPI · OpenMP |
 
 ---
 
